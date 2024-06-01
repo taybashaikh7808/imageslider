@@ -1,0 +1,77 @@
+#setimage{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+img{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+}
+.allcircles{
+    display: flex; 
+    font-size: 20px;
+    height: 30px;
+    width: 80px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.circle {   
+    height: 10px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: gray; 
+    margin-right: 2px; 
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+button:hover{
+    background-color: rgb(68, 67, 67);
+    height: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    
+}
+#play{
+    height: 100px;
+    width: 400px;
+    color: white;
+    background-color: black;
+}
+.buttons{
+    margin-top: 10rem;
+    margin-right: 10px;
+}
+
